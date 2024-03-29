@@ -24,7 +24,7 @@ public class SbCarApplication {
 @RestController
 @RequestMapping("/dic_student_name")
 class SbCarController{
-	@Value("${fullname: Bass}")
+	@Value("${fullname: Jesugon Emmanuel AKODEGBE}")
 	private String fullname;
 
 
